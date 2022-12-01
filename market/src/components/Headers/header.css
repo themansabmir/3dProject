@@ -1,0 +1,81 @@
+header {
+    background-color: #2F333A;
+    min-height: 70px;
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    display: flex;
+   flex: auto;
+}
+
+header a {
+    text-transform: uppercase;
+    color: white;
+    transition: 0.4s;
+  
+}
+
+header ul li {
+    display: inline-block;
+   
+  
+    padding: 0 20px;
+}
+
+header ul li a:hover {
+
+  color: #FF7004;
+}
+
+
+
+
+
+
+.menu {
+    display: none;
+}
+
+.cart-icon  {
+    position: relative;
+    margin-right: 20px;
+ 
+}
+.cart-icon img{
+    filter:brightness(0) invert(1);
+    z-index: 0;
+}
+.cart-icon img :hover{
+filter: invert(61%) sepia(91%) saturate(4071%) hue-rotate(356deg) brightness(102%) contrast(106%);
+
+}
+
+#logo{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.cart-icon span {
+    background: crimson;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 7px;
+    font-size: 10px;
+    z-index: 1;
+}
+
+
+
+

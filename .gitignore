@@ -1,0 +1,4 @@
+node_modules
+/market/node_modules
+/market/build
+.env
