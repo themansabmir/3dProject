@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 const fileUpload = require('express-fileupload')
 const cookieParser = require('cookie-parser')
-const path = require('path')
+
 
 
 const app = express()
@@ -26,6 +26,8 @@ app.use('/api', require('./routes/paymentRouter'))
 
 // Connect to mongodb
 const URI = process.env.MONGODB_URL
+
+
 mongoose.connect(URI, {  
    
     useNewUrlParser: true,

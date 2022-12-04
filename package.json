@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
+   
+    "start": "nodemon server.js",
     "market": "cd market && npm run start",
     "server-install": "npm install",
     "market-install": "cd market && npm install",
