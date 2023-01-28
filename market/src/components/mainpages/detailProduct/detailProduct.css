@@ -1,6 +1,7 @@
 .detail {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 50px;
@@ -15,7 +16,14 @@
     object-fit: cover;
     display: block;
 }
-
+.modelViewer model-viewer{
+    height: 400px;
+    width: 950px;
+    border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .box-detail {
     max-width: 500px;
     width: 100%;

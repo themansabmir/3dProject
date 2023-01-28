@@ -57,10 +57,10 @@ function Header() {
             <div className="logo">
                 <h1>
                     <Link to="/"> {isAdmin ? "Admin" : <div className='logo'><img src={Logo}  id="logo" alt="" />
-                        <h2> 3D SKETCH</h2> </div>
+                        <h2> CG TRADER</h2> </div>
                     }</Link>
                 </h1>
-            </div>
+            </div> 
 
 
             <ul className='list'>

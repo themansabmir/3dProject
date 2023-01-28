@@ -35,10 +35,14 @@ function DetailProduct() {
 
 
 
-
     return (
         <div className="detail">
-            <img src={detailProduct.images.url} alt="" />
+            <div className="modelViewer">
+
+
+            <model-viewer   src={detailProduct.images.url} ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+            </div>
+          
             <div className="box-detail">
                 <div className="row">
                     
@@ -57,7 +61,7 @@ function DetailProduct() {
                 
 
             </div>
-            <div>
+            {/* <div>
                 <h2>Related Products</h2>
                 <div className='products'>
                     {products.map(prod=>{
@@ -65,7 +69,7 @@ function DetailProduct() {
                         ? <ProductItem key={prod._id} product={prod}/>: null
                     })}
                 </div>
-            </div>
+            </div> */}
 
             
           
